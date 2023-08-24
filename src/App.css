@@ -1,0 +1,116 @@
+.Supercenter{
+  display: grid;
+  place-items: center; 
+  min-height: 100vh; 
+}
+
+
+body{
+  background-color: antiquewhite;
+  min-height:100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardProduct{
+  width: 50%;
+  height: 70%;
+  display: flex;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.imgContainer{
+  width: 50%;
+  overflow: hidden;
+}
+
+.imgContainer img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.textContainer{
+  width: 50%;
+  padding: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.priceContainer{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  
+}
+.cartContainer{
+  background-color:  #316653;
+  height: 2.5rem;
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+}
+
+
+*{
+  box-sizing: border-box;
+  margin:0;
+  border:0;
+}
+
+.FancyFont{
+  font-family: "Fraunces";
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+}
+
+.priceFont1{
+  font-size: 2rem;
+  color: #316653;
+}
+.priceFont2{
+  font-size: .6rem;
+  text-decoration: line-through;
+  color: grey
+}
+
+.NormalFont{
+  font-family: "Montserrat";
+  font-size: .95rem;
+  line-height: 1.4rem;
+}
+
+.cartFont{
+  font-weight: bold;
+  color: white;
+
+}
+
+.PerfumeFont{
+  letter-spacing: .3rem;
+  color: rgb(173, 175, 177);
+  font-size: .8rem;
+
+}
+
+@font-face {
+  font-family: "Fraunces";
+  src: local("Fraunces"), url("./Fonts/Fraunces/static/Fraunces_144pt-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"), url("./Fonts/Cardo,Montserrat,Quicksand/Montserrat/static/Montserrat-Light.ttf") format("truetype");
+}
