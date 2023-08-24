@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ProductCard/static/css/main.73f93b35.css",
+    "main.js": "/ProductCard/static/js/main.8f0ae22c.js",
+    "static/media/Montserrat-Light.ttf": "/ProductCard/static/media/Montserrat-Light.6fcc9263a21be961d246.ttf",
+    "static/media/Fraunces_144pt-Bold.ttf": "/ProductCard/static/media/Fraunces_144pt-Bold.db6c1160ae5e24746e66.ttf",
+    "static/media/image-product-desktop.jpg": "/ProductCard/static/media/image-product-desktop.c96d43af17111fe78e96.jpg",
+    "index.html": "/ProductCard/index.html",
+    "static/media/icon-cart.svg": "/ProductCard/static/media/icon-cart.9606ad84b7565a3f523f9429396f8066.svg",
+    "main.73f93b35.css.map": "/ProductCard/static/css/main.73f93b35.css.map",
+    "main.8f0ae22c.js.map": "/ProductCard/static/js/main.8f0ae22c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73f93b35.css",
+    "static/js/main.8f0ae22c.js"
+  ]
+}
